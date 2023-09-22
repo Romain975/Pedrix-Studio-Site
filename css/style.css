@@ -1,0 +1,87 @@
+/* Body */
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+/* Header */
+div.header {
+    background-color: #1E90FF;
+}
+div.header img {
+    padding: 5px;
+    border-radius: 25%;
+    vertical-align: middle;
+}
+div.header a {
+    color: white;
+    padding-top: 14px;
+}
+
+/* Navigation menu */
+div.menu-nav {
+    width: 200px;
+    height: 100%;
+    background-color: #cbcbcb;
+    padding: 0;
+    position: fixed;
+}
+div.menu-nav a {
+    background-color: #cbcbcb;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+div.menu-nav a.active {
+    background-color: #1E90FF;
+    color: white;
+}
+div.menu-nav a:hover:not(.active) {
+    background-color: #a1a1a1;
+}
+
+/* Footer */
+div.footer {
+    background-color: #1E90FF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex; /* Add flex display to align content vertically */
+    justify-content: space-between; /* Add space between the two divs inside the footer */
+    padding: 10px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+div.footer p, a {
+    color: white;
+    margin: 0; /* Reset margin to remove any extra spacing */
+}
+
+div.footer p#discord_paragraph {
+    text-align: center;
+}
+
+div.footer div {
+    width: 48%;
+}
+
+/* News menu */
+div.menu-news {
+    width: 80%;
+    margin-left: 200px;
+    right: 0;
+    padding-left: 15px;
+}
+div.menu-news div {
+    padding: 10px;
+    background-color: #cbcbcb;
+    border-radius: 25px;
+}
+div.menu-news div p {
+    color: black;
+}
+div.menu-news div a {
+    color: #1E90FF;
+}
